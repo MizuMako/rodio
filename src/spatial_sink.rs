@@ -139,4 +139,9 @@ impl SpatialSink {
     pub fn empty(&self) -> bool {
         self.sink.empty()
     }
+
+    #[inline]
+    pub fn len(&self) -> usize {
+        self.sink.len()
+    }
 }
